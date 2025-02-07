@@ -6,7 +6,7 @@ import resume from "../../../public/document/Rasadul-Islam-CV.pdf";
 
 const Hero = () => {
   return (
-    <div className="relative flex flex-col-reverse md:flex-row py-10 items-center justify-between md:h-96 bg-gradient-to-r from-blue-500 to-purple-600 text-white shadow-lg overflow-hidden px-10">
+    <div className="pt-60 pb-20 relative flex flex-col-reverse md:flex-row  items-center justify-between bg-gradient-to-r from-blue-500 to-purple-600 text-white shadow-lg overflow-hidden px-10">
       {/* Left Section - Name, Title, Resume */}
       <div className="flex flex-col justify-center">
         {/* Animated Text */}
