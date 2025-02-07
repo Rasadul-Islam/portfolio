@@ -77,7 +77,7 @@ const Navbar = () => {
 
                     {/* Hamburger Menu */}
                     <div
-                        className="lg:hidden border-2 border-gray-400 py-1 px-4 rounded-lg bg-gray-400"
+                        className="lg:hidden border-2 border-teal-400 py-1 px-4 rounded-lg bg-teal-300 hover:bg-teal-600"
                         onClick={() => setOpen(!open)}
                     >
                         {open ? (
