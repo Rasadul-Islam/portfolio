@@ -13,7 +13,7 @@ const Footer = () => {
         {/* Social Media Links */}
         <div className="mt-4 flex space-x-6">
           <a
-            href="https://github.com/your-username"
+            href="https://github.com/Rasadul-Islam"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white transition duration-300"
@@ -21,7 +21,7 @@ const Footer = () => {
             <FaGithub className="text-2xl" />
           </a>
           <a
-            href="https://www.linkedin.com/in/your-username/"
+            href="https://www.linkedin.com/in/rasadul-islam-sg-gsf/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white transition duration-300"
@@ -29,7 +29,7 @@ const Footer = () => {
             <FaLinkedin className="text-2xl" />
           </a>
           <a
-            href="https://twitter.com/your-username"
+            href="https://x.com/rasadul_sggsf"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white transition duration-300"

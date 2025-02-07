@@ -29,7 +29,7 @@ const Contact = () => {
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
-      className="max-w-3xl mx-auto my-20 px-8 py-10 bg-gradient-to-r from-white to-gray-100 shadow-xl rounded-xl text-gray-800 border border-gray-300"
+      className="max-w-6xl mx-auto my-20 px-8 py-10 bg-gradient-to-r from-white to-gray-100 shadow-xl rounded-xl text-gray-800 border border-gray-300"
     >
       {/* Heading */}
       <h2 className="text-4xl font-bold text-center text-blue-600 mb-8">
@@ -44,7 +44,7 @@ const Contact = () => {
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: index * 0.2 }}
-            className="flex items-center space-x-6 p-4 rounded-lg bg-white shadow-md hover:shadow-lg transition duration-300"
+            className="max-w-3xl mx-auto flex items-center space-x-6 p-4 rounded-lg bg-white shadow-md shadow-teal-200 hover:shadow-lg transition duration-300"
           >
             {contact.icon}
             <div>

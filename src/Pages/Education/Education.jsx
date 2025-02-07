@@ -32,7 +32,7 @@ const Education = () => {
   ];
 
   return (
-    <div className="max-w-4xl mx-auto my-20 px-6 py-10">
+    <div className="max-w-4xl my-10 mx-auto px-6 py-10">
       {/* Heading */}
       <h2 className="text-3xl font-bold text-center text-blue-600 mb-6 animate__animated animate__fadeInDown">
         Educational Qualification

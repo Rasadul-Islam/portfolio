@@ -30,6 +30,12 @@ const Navbar = () => {
 
         return () => document.removeEventListener("mousedown", handleOutsideClick);
     }, [open]);
+    const handleScroll = (id) => {
+        const section = document.getElementById(id);
+        if (section) {
+            section.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+    };
 
 
     return (
@@ -48,17 +54,16 @@ const Navbar = () => {
                 >
                     {routes.map((route) => (
                         <li key={route.id}>
-                            <NavLink
-                                to={route.path}
+                            <button
+                                onClick={()=>handleScroll(route.path.substring(1))}
                                 className={({ isActive }) =>
                                     isActive
                                         ? "px-8 py-2 rounded-xl font-extrabold bg-white text-black border-2 border-black text-base md:text-sm lg:text-lg"
                                         : "hover:text-gray-800 hover:bg-gray-300 border-2 border-teal-300 p-2 rounded-lg z-10 px-6"
                                 }
-                                onClick={() => setOpen(false)} // Close menu on link click
                             >
                                 {route.name}
-                            </NavLink>
+                            </button>
                         </li>
                     ))}
                 </ul>
