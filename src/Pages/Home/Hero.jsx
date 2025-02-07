@@ -50,7 +50,7 @@ const Hero = () => {
         {/* Social Media Links */}
         <div className="flex mt-4 space-x-4">
           <motion.a
-            href="https://github.com/yourprofile"
+            href="https://github.com/Rasadul-Islam"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.1 }}
@@ -59,7 +59,7 @@ const Hero = () => {
             <Github size={28} />
           </motion.a>
           <motion.a
-            href="https://linkedin.com/in/yourprofile"
+            href="https://www.linkedin.com/in/rasadul-islam-sg-gsf/"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.1 }}
@@ -68,7 +68,7 @@ const Hero = () => {
             <Linkedin size={28} />
           </motion.a>
           <motion.a
-            href="https://twitter.com/yourprofile"
+            href="https://x.com/rasadul_sggsf"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.1 }}
@@ -77,7 +77,7 @@ const Hero = () => {
             <Twitter size={28} />
           </motion.a>
           <motion.a
-            href="https://facebook.com/yourprofile"
+            href="https://www.facebook.com/rasadul.islam.sg.gsf"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.1 }}
